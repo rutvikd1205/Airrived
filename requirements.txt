@@ -1,0 +1,8 @@
+Flask
+pandas
+ioc-fanger
+PyPDF2
+openpyxl
+requests
+urllib.parse
+json
