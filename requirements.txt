@@ -1,8 +1,10 @@
-Flask
-pandas
-ioc-fanger
-PyPDF2
-openpyxl
-requests
-urllib.parse
+Flask==2.2.2
+pandas==2.2.2
+ioc-fanger==4.2.1
+PyPDF2==3.0.1
+openpyxl==3.0.10
+requests==2.31.0
+urllib3==1.26.16
 json
+Werkzeug==2.2.3
+lxml==4.9.3

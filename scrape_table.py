@@ -72,7 +72,7 @@ def scrape():
     
     result = {}
 
-    for i in range(len(t)):
+    for i in range(len(tacts)):
         chunk = df.iloc[0][i]
         cleaned_text = clean_and_split_text(chunk)
 
