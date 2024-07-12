@@ -3,6 +3,9 @@ from defang_url import fang_pdf, fang_url
 from scrape_table import scrape, get_tactic_json, get_technique_json
 from werkzeug.utils import secure_filename
 import os
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 app = Flask(__name__)
 
